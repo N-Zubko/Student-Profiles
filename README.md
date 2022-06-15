@@ -1,7 +1,10 @@
 # Student Profile Tool
 
+<img width="1135" alt="Screen Shot 2022-06-15 at 12 47 43 AM" src="https://user-images.githubusercontent.com/63440229/173766079-2cd03b5b-16e5-4d0c-9db9-6f7b21a26706.png">
+
+
 This is a fun little project using React and API to display student profiles, filter them based on the first and last names, as well as tags. Tags can be assigned in the "Add a tag" input box. To search profiles start entering values into either "Search by name" or "Search by tag" boxes, or use both.
-Bootstrap and App.css are used for styling, a spinner is demonstrated during the loading, 
+Bootstrap and App.css are used for styling, a spinner is demonstrated during the loading.
 
 ## Available Scripts
 
