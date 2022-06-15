@@ -1,0 +1,108 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@400;800&display=swap');
+:root {
+  --grey: #cccbcbf6;
+  --white: #ffffff;
+  --black: #000000;
+}
+
+* {
+  font-family: 'Raleway', sans-serif; 
+  border: none;
+  color: var(--black);
+ }
+
+ body {
+   background-color: var(--grey);
+ }
+
+ img {
+   width: 150px;
+   height: 150px;
+   border-radius: 50%;
+   border: 1px solid var(--grey);
+ }
+
+ .card-item {
+   border-bottom: 1px solid var(--grey);
+   margin-top: 1rem ;
+   margin-bottom: 1rem;
+
+ }
+
+ .text-info {
+   margin-left: 2rem;
+ }
+
+ .text-info >p {
+   line-height: 1rem;
+   margin-top: 1rem;
+   margin-bottom: 1rem;
+ }
+
+ .student-name {
+  font-weight: 800;
+  font-size: 36px;
+  margin-left: -1rem;
+}
+
+.container {
+  background-color: var(--white);
+  width: 60%;
+  margin: 5% 20%; 
+  height: 40em;
+  scroll-behavior: smooth;
+  overflow: auto;
+  border-radius: 25px;
+
+}
+
+input {
+  font-size: medium;
+  border: none;
+  border-bottom: 1px solid var(--grey);
+  margin: 1rem 0;
+  line-height: 1.5rem;
+  width: 95%
+}
+
+.input-box {
+  text-align: center;
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+  background-color: var(--white);
+}
+
+.loader {
+  margin: 30% 30%;
+}
+
+button {
+  border: none;
+  font-size: 64px;
+  color: var(--grey);
+  background-color: var(--white);
+}
+
+
+.collapse {
+  margin-bottom: 1rem;
+}
+
+.tag {
+  background-color: var(--grey);
+  max-width: fit-content;
+  padding: 0.25rem;
+  margin: 0.25rem;
+}
+
+.tag > button {
+  font-size: 10px;
+  background-color: var(--grey);
+  color: var(--black);
+  vertical-align: top;
+}
+
+.tag-container > input {
+  max-width: 60%
+}
